@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sơ Đồ Lai</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="diagram">
+        <div>
+            <span>P : </span>
+            <input type="text" id="momGenotype" class="straight" value="AaBb"> x
+            <input type="text" id="dadGenotype" class="straight" value="AaBb">
+            <button id="lai">Lai!</button>
+        </div>
+        <div>
+            <span>G<sub>P</sub> :</span>
+            <span id="momGametes" class="straight"></span>
+            <span id="dadGametes" class="straight"></span>
+        </div>
+        <div>
+            <span>F<sub>1</sub> :</span>
+            <table id="resultTable"></table>
+            <br>
+            <div id="genotypicRatio"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

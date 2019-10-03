@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: 3%;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+table tr:first-child,
+table tr td:first-child {
+    font-weight: bold;
+}
+
+table td {
+    min-width: 40px;
+    padding: 5px;
+}
+
+#diagram {
+    text-align: center;
+}
+
+#diagram div {
+    margin-bottom: 40px;
+    width: auto;
+}
+
+#diagram div>* {
+    display: inline-table;
+}
+
+div span:first-child {
+    width: 100px;
+    line-height: 30px;
+    text-align: right;
+    float: left;
+}
+
+.straight {
+    box-sizing: border-box;
+    width: 20%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.straight:last-child {
+    margin-right: 3%;
+    margin-left: 15px;
+}
+
+#genotypicRatio,
+#phenotypicRatio {
+    height: 30px;
+    line-height: 30px;
+    margin-right: -2%;
+    max-width: 80%;
+    display: block;
+}
